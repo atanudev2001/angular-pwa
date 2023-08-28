@@ -1,0 +1,9 @@
+.example-card {
+  /* max-width: 400px; */
+  width: 100%;
+  margin-bottom: 8px;
+}
+.icons{display: flex;flex-wrap: wrap;justify-content: space-between;    width: 400px;
+  margin-top: 20px;}
+
+.mat-mdc-card-title{font-size: 30px;font-weight: 400;}
