@@ -1,0 +1,15 @@
+<mat-nav-list class="sidenav-list">
+  <a mat-list-item  (click)="onToggleclose()">
+    <span>PWAGram</span>
+  </a>
+  <a mat-list-item routerLink="/feed" (click)="onToggleclose()">
+    <span>Feed</span>
+  </a>
+  <a mat-list-item routerLink="/help" (click)="onToggleclose()">
+    <span>Help</span>
+  </a>
+  <a mat-list-item  (click)="onToggleclose()">
+    <button mat-raised-button color="accent">Enable Notifications</button>
+  </a>
+
+</mat-nav-list>

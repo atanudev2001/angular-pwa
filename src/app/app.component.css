@@ -1,0 +1,14 @@
+.floating-btn{position: fixed;bottom: 0;right: 0;padding: 30px;z-index: 100;}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;margin: 20px auto 0;
+}
+
+.example-full-width {
+  width: 100%;
+}
+#postform{display: none;}
+.post-btn{margin: auto;    width: 70px;}
+.close-btn{margin: 20px auto 0;width: 58px;}
+.main-image{max-width: 100%;margin: auto;display: block;}
