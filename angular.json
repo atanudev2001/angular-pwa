@@ -1,7 +1,10 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "dcf8f9d3-4eef-45f5-805d-8a49a6c61f7d"
+    "analytics": "dcf8f9d3-4eef-45f5-805d-8a49a6c61f7d",
+    "cache": {
+      "environment": "all"
+    }
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -28,7 +31,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              "https://fonts.googleapis.com/icon?family=Material+Icons"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
